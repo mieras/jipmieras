@@ -29,7 +29,7 @@ var Engine = Matter.Engine,
       engine: engine,
       options: {
         wireframes: false,
-        background: 'white',
+        background: '#f4f4f4',
         width: width,
         height: height
       }
