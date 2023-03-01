@@ -142,3 +142,13 @@ init();
 $(window).resize(function() {
   
 });
+
+window.addEventListener('resize', () => { 
+  render.bounds.max.x = element.clientWidth;
+  render.bounds.max.y = element.clientHeight;
+  render.options.width = element.clientWidth;
+  render.options.height = element.clientHeight;
+  render.canvas.width = element.clientWidth;
+  render.canvas.height = element.clientHeight;
+  Matter.Render.setPixelRatio(render, window.devicePixelRatio); // added this
+});
