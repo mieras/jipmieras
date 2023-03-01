@@ -31,7 +31,8 @@ var Engine = Matter.Engine,
         wireframes: false,
         background: '#f4f4f4',
         width: width,
-        height: height
+        height: height,
+        pixelRatio: window.devicePixelRatio // here
       }
     }),
   
