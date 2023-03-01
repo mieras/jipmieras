@@ -29,7 +29,7 @@ var Engine = Matter.Engine,
       engine: engine,
       options: {
         wireframes: false,
-        background: '#f4f4f4',
+        background: 'transparent',
         width: width,
         height: height,
         pixelRatio: window.devicePixelRatio // here
@@ -141,15 +141,15 @@ init();
 
 // Re-draw vertexSets on window re-size
 $(window).resize(function() {
+  window.addEventListener('resize', () => { 
+    render.bounds.max.x = element.clientWidth;
+    render.bounds.max.y = element.clientHeight;
+    render.options.width = element.clientWidth;
+    render.options.height = element.clientHeight;
+    render.canvas.width = element.clientWidth;
+    render.canvas.height = element.clientHeight;
+    Matter.Render.setPixelRatio(render, window.devicePixelRatio); // added this
+  });
   
 });
 
-window.addEventListener('resize', () => { 
-  render.bounds.max.x = element.clientWidth;
-  render.bounds.max.y = element.clientHeight;
-  render.options.width = element.clientWidth;
-  render.options.height = element.clientHeight;
-  render.canvas.width = element.clientWidth;
-  render.canvas.height = element.clientHeight;
-  Matter.Render.setPixelRatio(render, window.devicePixelRatio); // added this
-});
