@@ -28,7 +28,7 @@ var Engine = Matter.Engine,
       element: document.body,
       engine: engine,
       options: {
-        wireframes: false,
+        wireframes: true,
         background: '#f4f4f4',
         width: width,
         height: height
