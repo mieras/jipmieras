@@ -44,7 +44,8 @@ var Engine = Matter.Engine,
     
     // Arrays for Elements
     vertexSets = [],
-    color = ['#4798D3', '#FF1D43','#2D3081','#FF8500','#FFCC00','#FFEF42','#DFCEA1','#74B700','#387339','#00A98C','#D1DFDF','#A7DAEC','#D7D5E3','#91388C','#DD358A','#FFCCDE'],
+    // color = ['#4798D3', '#FF1D43','#2D3081','#FF8500','#FFCC00','#FFEF42','#DFCEA1','#74B700','#387339','#00A98C','#D1DFDF','#A7DAEC','#D7D5E3','#91388C','#DD358A','#FFCCDE'],
+    color = ['#440099'],
     
     // Element Selctor
     elSVG = $('svg');
@@ -141,15 +142,15 @@ init();
 
 // Re-draw vertexSets on window re-size
 $(window).resize(function() {
-  window.addEventListener('resize', () => { 
-    render.bounds.max.x = element.clientWidth;
-    render.bounds.max.y = element.clientHeight;
-    render.options.width = element.clientWidth;
-    render.options.height = element.clientHeight;
-    render.canvas.width = element.clientWidth;
-    render.canvas.height = element.clientHeight;
-    Matter.Render.setPixelRatio(render, window.devicePixelRatio); // added this
-  });
   
 });
 
+window.addEventListener('resize', () => { 
+  render.bounds.max.x = element.clientWidth;
+  render.bounds.max.y = element.clientHeight;
+  render.options.width = element.clientWidth;
+  render.options.height = element.clientHeight;
+  render.canvas.width = element.clientWidth;
+  render.canvas.height = element.clientHeight;
+  Matter.Render.setPixelRatio(render, window.devicePixelRatio); // added this
+});
