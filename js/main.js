@@ -45,7 +45,7 @@ var Engine = Matter.Engine,
     // Arrays for Elements
     vertexSets = [],
     // color = ['#4798D3', '#FF1D43','#2D3081','#FF8500','#FFCC00','#FFEF42','#DFCEA1','#74B700','#387339','#00A98C','#D1DFDF','#A7DAEC','#D7D5E3','#91388C','#DD358A','#FFCCDE'],
-    color = ['#440099'],
+    color = ['#440099', '#440099'],
     
     // Element Selctor
     elSVG = $('svg');
