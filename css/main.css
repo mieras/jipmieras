@@ -89,7 +89,7 @@ textarea {
 
    :root {
     --main-color: #54028f;
-    --color-fluor: rgba(255, 94, 31, 1 );
+    --color-fluor: #ff5e1f;
     --color-fluor-20: rgba(255, 94, 31, 0.2 );
     --shadow-color: 17deg 1000% 56%;
     --shadow-elevation-low:
@@ -195,7 +195,7 @@ p small {
 
 @media only screen and (max-width: 600px) {
 	#content {
-  		transform: translate3d(-50%, -25%, 0);
+  		transform: translate3d(-50%, -35%, 0);
   		/*   cursor: pointer; */
   		margin: 0;
   		padding: 0;
