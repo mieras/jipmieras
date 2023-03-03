@@ -88,7 +88,7 @@ textarea {
    ========================================================================== */
 
    :root {
-    --shadow-color: 0deg 0% 56%;
+    --shadow-color: 17deg 1000% 56%;
     --shadow-elevation-low:
       0.1px 0.3px 0.3px hsl(var(--shadow-color) / 0.53),
       0.1px 0.5px 0.5px -1.6px hsl(var(--shadow-color) / 0.45),
@@ -175,7 +175,7 @@ p small {
 	line-height: clamp(1.24rem, 1.2vw + 1.1rem, 2rem);
     font-weight: 700;
     text-decoration: none;
-    background: #ff0800;
+    background: #FF5F1F;
     color:white;
 	margin-top;54px;
 	border-radius:20% 5% 10% 12%;
