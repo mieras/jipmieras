@@ -169,7 +169,7 @@ p {
 
 p small {
   font-size: clamp(0.475rem, 0.25vw + 0.675rem, 0.675rem);
-  line-height: clamp(0.875rem, 0.25vw + 0.275rem, 0.275rem);
+  line-height: clamp(0.475rem, 0.15vw + 0.275rem, 0.675rem);
   letter-spacing: -0.0125rem;
   font-weight: 300;
   width:100%;
