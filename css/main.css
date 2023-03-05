@@ -164,7 +164,7 @@ p.intro {
 
 
 p {
-  font-size: clamp(0.475rem, 0.5vw + 0.5rem, 0.75rem);
+  font-size: clamp(0.675rem, 0.5vw + 0.875rem, 0.875rem);
   line-height: clamp(1.5rem, 0.5vw + 1.25rem, 1.25rem);
   font-weight: 400;
   width: 100%;
