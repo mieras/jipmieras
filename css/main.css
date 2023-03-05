@@ -148,13 +148,13 @@ body {
 }
 
 p.hello {
-	font-size: clamp(0.875rem, 1.25vw + 0.688rem, 2.25rem);
-	line-height: clamp(1.4rem, 1.2vw + 1.1rem, 2rem);
+	font-size: clamp(0.875rem, 1.25vw + 0.875, 2.25rem);
+	line-height: clamp(1.4rem, 1.25vw + 1rem, 2rem);
     font-weight: 700;
 }
 
 p.intro {
-	font-size: clamp(0.675rem, 1vw + 0.688rem, 1.25rem);
+	font-size: clamp(0.675rem, 1vw + 0.875, 1.25rem);
 	line-height: clamp(1.5rem, 1vw + 1.25rem, 1.5rem);
     font-weight: 400;
  }
@@ -171,9 +171,6 @@ p {
 p small {
   font-size: clamp(0.475rem, 0.25vw + 0.675rem, 0.675rem);
   line-height: clamp(0.375rem, 0.15vw + 0.275rem, 0.675rem);
-  letter-spacing: -0.0125rem;
-  font-weight: 300;
-  width:100%;
 }
 
 .button{
