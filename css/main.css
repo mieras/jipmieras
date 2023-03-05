@@ -109,10 +109,11 @@ textarea {
     23.7px 17.6px 34.3px -1.5px hsl(var(--shadow-color) / 0.11),
     38.4px 28.5px 55.6px -1.9px hsl(var(--shadow-color) / 0.11),
     60px 44.5px 86.8px -2.2px hsl(var(--shadow-color) / 0.12);
+    --font: 'Inter', sans-serif;
 }
 body {
 	background: #f4f4f4;
-	font-family: 'Azeret Mono', monospace;
+	font-family: var(--font);
 	width:100%;
 }
 
