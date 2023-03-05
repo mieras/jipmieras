@@ -150,7 +150,7 @@ body {
 p.hello {
 	font-size: clamp(0.875rem, 1.25vw + 0.875, 2.25rem);
 	line-height: clamp(1.4rem, 1.25vw + 1rem, 2rem);
-    font-weight: 600;
+  font-weight: 700;
 }
 
 p.intro {
@@ -182,7 +182,7 @@ p small {
     text-decoration: none;
     background: var(--color-fluor);
     color:white;
-	margin-top:64px;
+	margin-top:24px;
 	border-radius:20% 5% 10% 12%;
 	transition: transform 0.2s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 }
