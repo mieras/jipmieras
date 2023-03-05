@@ -136,7 +136,6 @@ body {
   border-radius: 0.15rem;
   overflow: visible;
   box-shadow: var(--shadow-elevation-high);
-
   border: 0.1rem solid var(--color-fluor);
   border-top: 0.125rem;
   border-left: 0.0125rem;
@@ -144,22 +143,24 @@ body {
 }
 
 .contentWrapper {
-  padding: 5vw;
+  padding: 3vw 4vw 3.5vw 4vw;
   text-align: center;
   overflow: visible;
 }
 
 p.hello {
-  font-size: clamp(0.875rem, 1.25vw + 0.275rem, 2.25rem);
+  font-size: clamp(0.475rem, 0.5vw + 0.275rem, 0.875rem);
   line-height: clamp(1.5rem, 1.5vw + 1.25rem, 2rem);
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 0.25vw;
 }
 
 p.intro {
   font-size: clamp(0.675rem, 1vw + 0.875rem, 1.25rem);
-  line-height: clamp(1.5rem, 1.5vw + 1.5rem, 1.5rem);
+  line-height: clamp(1.75rem, 1.5vw + 1.75rem, 1.75rem);
   font-weight: 700;
+  letter-spacing: 0.0125rem;
 }
 
 
