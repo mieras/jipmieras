@@ -161,7 +161,7 @@ p.intro {
 
 p {
   font-size: clamp(0.475rem, 0.55vw + 0.688rem, 1rem);
-  line-height: clamp(1.5rem, 1vw + 1.25rem, 1.25rem);
+  line-height: clamp(1.5rem, 0.5vw + 1.25rem, 1.25rem);
   font-weight: 400;
   width:100%;
 
@@ -169,7 +169,7 @@ p {
 
 p small {
   font-size: clamp(0.475rem, 0.25vw + 0.675rem, 0.675rem);
-  line-height: clamp(0.475rem, 0.15vw + 0.275rem, 0.675rem);
+  line-height: clamp(0.375rem, 0.15vw + 0.275rem, 0.675rem);
   letter-spacing: -0.0125rem;
   font-weight: 300;
   width:100%;
