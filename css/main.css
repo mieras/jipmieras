@@ -151,6 +151,7 @@ p.hello {
 	font-size: clamp(0.875rem, 1.25vw + 0.875, 2.25rem);
 	line-height: clamp(1.4rem, 1.25vw + 1rem, 2rem);
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 p.intro {
